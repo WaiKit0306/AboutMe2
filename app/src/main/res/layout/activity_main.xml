@@ -21,8 +21,35 @@
         app:layout_constraintTop_toTopOf="parent"
         style="@style/NameStyle" />
 
+    <EditText
+        android:id="@+id/nickName_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:text="@string/nickName"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/done_button"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/top"
+        android:text="@string/done" />
+
+    <TextView
+        android:id="@+id/nickName_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:visibility="gone"
+        android:text=""/>
+
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/starImage"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:srcCompat="@android:drawable/btn_star_big_on"

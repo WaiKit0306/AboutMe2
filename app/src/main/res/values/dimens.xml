@@ -3,5 +3,6 @@
     <dimen name="text_size">20sp</dimen>
     <dimen name="small_padding">8dp</dimen>
     <dimen name="layout_margin">16dp</dimen>
+    <dimen name="top">16dp</dimen>
     <item name="lineSpace" type="dimen" format="float">1.2</item>
 </resources>
