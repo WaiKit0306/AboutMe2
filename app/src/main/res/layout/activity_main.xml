@@ -26,9 +26,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:hint="@string/nickName"
         android:inputType="textPersonName"
         android:minHeight="48dp"
-        android:text="@string/nickName"
         android:textAlignment="center" />
 
     <Button
@@ -38,15 +38,19 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="@dimen/top"
-        android:text="@string/done" />
+        android:text="@string/done"
+       />
+
 
     <TextView
-        android:id="@+id/nickName_text"
+        android:id="@+id/nickname_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAlignment="center"
         android:visibility="gone"
-        android:text=""/>
+        android:text=""
+        android:background="@color/colorAccent"
+        android:paddingBottom="@dimen/small_padding"/>
 
     <ImageView
         android:id="@+id/starImage"
